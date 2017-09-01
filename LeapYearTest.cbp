@@ -13,13 +13,13 @@
 				<Option compiler="gcc" />
 				<Compiler>
 					<Add option="-g" />
-					<Add directory="../UnitTest++/src" />
+					<Add directory="../UnitTest/src" />
 					<Add directory="src/" />
 				</Compiler>
 				<Linker>
-					<Add library="../UnitTest++/bin/Debug/libUnitTest++.a" />
+					<Add library="../UnitTest/bin/Debug/libUnitTest++.a" />
 					<Add library="obj/Debug/LeapYear.o" />
-					<Add directory="../UnitTest++/bin/Debug" />
+					<Add directory="../UnitTest/bin/Debug" />
 					<Add directory="obj/Debug" />
 				</Linker>
 			</Target>
@@ -30,14 +30,14 @@
 				<Option compiler="gcc" />
 				<Compiler>
 					<Add option="-O2" />
-					<Add directory="../UnitTest++/src" />
+					<Add directory="../UnitTest/src" />
 					<Add directory="src/" />
 				</Compiler>
 				<Linker>
 					<Add option="-s" />
-					<Add library="../UnitTest++/bin/Release/libUnitTest++.a" />
+					<Add library="../UnitTest/bin/Release/libUnitTest++.a" />
 					<Add library="obj/Release/LeapYear.o" />
-					<Add directory="../UnitTest++/bin/Release" />
+					<Add directory="../UnitTest/bin/Release" />
 					<Add directory="obj/Release" />
 				</Linker>
 				<ExtraCommands>

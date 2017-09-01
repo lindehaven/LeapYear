@@ -1,1 +1,11 @@
 # depslib dependency file v1.0
+1504183514 source:c:\users\lindtlar\documents\github\leapyear\src\leapyear.cpp
+	"LeapYear.h"
+
+1504182200 c:\users\lindtlar\documents\github\leapyear\src\leapyear.h
+
+1504192415 source:c:\users\lindtlar\documents\github\leapyear\src\main.cpp
+	<iostream>
+	<cstdlib>
+	"LeapYear.h"
+
