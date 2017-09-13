@@ -4,6 +4,13 @@
 
 using namespace std;
 
+/** \brief
+ *
+ * \param argc int
+ * \param argv[] char*
+ * \return 1 if leap year or 0 if not leap year
+ *
+ */
 int main(int argc, char* argv[])
 {
     int Year;
@@ -12,7 +19,10 @@ int main(int argc, char* argv[])
         if ((Year = atoi(argv[i])) != 0)
         {
             if (IsLeapYear(Year))
+            {
                 cout << Year << " is a leap year" << endl;
+                return 1;
+            }
             else
                 cout << Year << " is a not leap year" << endl;
         }

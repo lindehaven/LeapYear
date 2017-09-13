@@ -34,3 +34,8 @@
 # Project files
 *.layout
 *.depend
+
+# Doxygen files
+doxyfile
+doxygen
+doxygen.log
